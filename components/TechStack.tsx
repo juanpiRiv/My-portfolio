@@ -20,15 +20,6 @@ const technologies = [
 ]
 
 export default function TechStack() {
-  const categories = [
-    { id: "all", label: "Todas" },
-    { id: "frontend", label: "Frontend" },
-    { id: "backend", label: "Backend" },
-    { id: "database", label: "Bases de Datos" },
-    { id: "devops", label: "DevOps" },
-    { id: "language", label: "Lenguajes" },
-  ]
-
   return (
     <div className="w-full mt-12 mb-5">
       <motion.div

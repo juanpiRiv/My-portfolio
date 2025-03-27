@@ -149,11 +149,10 @@ export default function EnhancedStarfieldBackground() {
     // Animation variables
     let animationId: number
     let time = 0
-    let pulsePhase = 0
 
     const animate = () => {
       time += 0.01
-      pulsePhase += 0.02
+
 
       // Smooth mouse movement with inertia
       mouseX += (targetMouseX - mouseX) * 0.05

@@ -3,7 +3,6 @@
 import { motion } from "framer-motion"
 import { skills } from "@/data/portfolioData"
 import Box from "../Box"
-import { div } from "framer-motion/client"
 
 export default function Skills() {
   return (
