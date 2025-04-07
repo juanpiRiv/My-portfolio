@@ -4,7 +4,7 @@ import type { Section, Project, Education, Experience } from "@/types/portfolio"
 export const sections: Section[] = [
   { id: "about", icon: User, title: "Sobre mí" },
   { id: "projects", icon: Briefcase, title: "Proyectos" },
-  { id: "skills", icon: Code, title: "Habilidades" },
+  { id: "skills", icon: Code, title: "Skills" },
   { id: "education", icon: GraduationCap, title: "Educación" },
   { id: "experience", icon: Building, title: "Experiencia" },
   { id: "contact", icon: Mail, title: "Contacto" },
@@ -30,20 +30,6 @@ export const projects: Project[] = [
   },
 ];
 
-export const skills: string[] = [
-  "React.js  / Next.js",
-  "JavaScript  /  TypeScript",
-  "Java/Python",
-  "Docker",
-  "Node.js  /  Express.js",
-  "MongoDB/MySQL",
-  "Trello/Jira",
-  "Excalidraw  /  Diagramación",
-  "Scrum/Desarrollo Ágil",
-  "Git/GitHub",
-  "Excel/Google Sheets",
-  "Figma/Diseño UI",
-];
 
 export const education: Education[] = [
   {

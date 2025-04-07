@@ -33,7 +33,7 @@ export default function CallToAction() {
           </motion.a>
 
           <motion.a
-            href="juanpirivero015@gmail.com"
+            href="mailto:juanpirivero015@gmail.com"
             className="flex items-center justify-center bg-gradient-to-r from-cyan-500 to-purple-500 text-gray-900 font-semibold py-3 px-6 rounded-full hover:from-cyan-600 hover:to-purple-600 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/25"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

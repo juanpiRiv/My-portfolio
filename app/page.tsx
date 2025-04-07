@@ -8,7 +8,6 @@ import Navigation from "@/components/Navigation"
 import ContentSection from "@/components/ContentSection"
 import MetricsBanner from "@/components/MetricsBanner"
 import ProjectShowcase from "@/components/ProjectShowcase"
-import TechStack from "@/components/TechStack"
 import CallToAction from "@/components/CallToAction"
 import { sections } from "@/data/portfolioData"
 
@@ -75,7 +74,6 @@ export default function Portfolio() {
                   transition={{ duration: 0.3 }}
                 >
                   <ContentSection activeSection={activeSection} />
-                  <TechStack />
                 </motion.div>
               )}
 
