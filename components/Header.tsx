@@ -2,7 +2,7 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import profilepic from "@/public/profile-pic.png"
-
+import { FaGithub, FaLinkedin } from "react-icons/fa"
 export default function Header() {
   return (
     <motion.header
@@ -49,7 +49,33 @@ export default function Header() {
             >
               <span className="text-cyan-400 font-semibold">Full Stack Developer</span>
             </motion.p>
+            <motion.div
+            className="flex justify-center md:justify-start mt-4 gap-4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6 }}
+          >
+            <a
+              href="https://github.com/juanpiRiv"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:text-cyan-400 transition"
+              aria-label="GitHub"
+            >
+              <FaGithub size={28} />
+            </a>
+            <a
+              href="https://linkedin.com/in/juanriveroalbornoz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:text-cyan-400 transition"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedin size={28} />
+            </a>
+          </motion.div>
           </div>
+          
         </div>
 
       </div>
