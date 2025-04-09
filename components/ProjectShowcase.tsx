@@ -6,19 +6,27 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react"
 export default function FrontendProjects() {
   const frontendProjects = [
     {
+      title: "Ai-Sales-Predicts-CSV" ,
+      description: "Herramienta de análisis de ventas que permite subir archivos CSV, visualizar datos, descomponer series temporales y predecir tendencias futuras mediante modelos como Prophet y ARIMA.",
+      image: "/Aisales.png",
+      technologies: ["Python", "Ai", "Gemini", "Streamlit", "Prophet", "Plotly", "Arima", "Pandas", "Numpy"],
+      githubUrl: "https://github.com/juanpiRiv/Ai-Sales-Predicts--CSV-",
+      link: "https://aisalespredict.streamlit.app/",
+    },
+    {
       title: "E-commerce Autoadmin NextjsUI",
-      description: "Una interfaz de usuario optimizada para conversión en tiendas online modernas, con funcionalidades de administración de clientes y productos con rol administrador.",
+      description: "Plataforma de e-commerce con panel de administración para gestionar clientes y productos, con control de acceso mediante roles y funcionalidades exclusivas para usuarios administradores.",
       image: "/nextjs.png",
       technologies: ["Next.js", "Firebase", "Framer Motion", "Tailwind CSS", "Vercel", "MaterialUI", "MagicUI"],
       githubUrl: "https://github.com/juanpiRiv/Nextjs-Entrega",
-      link: "nextjseccomerce-pi.vercel.app",
+      link: "https://nextjseccomerce-pi.vercel.app/",
     },
     {
       title: "E-commerce ReactUI",
-      description: "Una interfaz de usuario optimizada para conversión en tiendas online modernas.",
+      description: "Interfaz de usuario moderna, diseñada para maximizar conversiones en e-commerce, con navegación intuitiva y experiencia adaptada a distintos dispositivos para mejorar la tasa de ventas.",
       image: "/reactjs.png",
       technologies: ["Vite", "React", "Chakra UI", "GitHubPages"],
-      githubUrl: "https://github.com/juanpiRiv/ReactJSeccomercei",
+      githubUrl: "https://github.com/juanpiRiv/ReactJSeccomerce",
       link: "https://juanpiriv.github.io/ReactJSeccomerce/",
     },
   ]
@@ -50,7 +58,7 @@ export default function FrontendProjects() {
       >
         Proyectos 
       </motion.h2>
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-3 gap-4">
         {frontendProjects.map((project, index) => (
           <motion.div
             key={index}
@@ -82,9 +90,9 @@ export default function FrontendProjects() {
             </div>
 
             <div className="p-6">
-              <p className="text-gray-300 mb-5 leading-relaxed">{project.description}</p>
+              <p className="text-gray-300 mb-2 leading-relaxed">{project.description}</p>
 
-              <div className="flex flex-wrap gap-2 mb-6">
+              <div className="flex flex-wrap gap-2 mb-8  ">
                 {project.technologies.map((tech) => (
                   <motion.span 
                     key={tech} 
@@ -97,7 +105,7 @@ export default function FrontendProjects() {
                 ))}
               </div>
 
-              <div className="flex space-x-6">
+              <div className="fixed bottom-0 mb-5 flex space-x-6 ">
                 <motion.a
                   href={project.githubUrl}
                   target="_blank"

@@ -6,7 +6,7 @@ const technologies = [
   { name: "React", icon: "/icons/react_dark.svg", category: "frontend" },
   { name: "JavaScript", icon: "/icons/javascript.svg", category: "frontend" },
   { name: "Java", icon: "/icons/java.svg", category: "language" },
-  { name: "spring", icon: "/icons/spring.svg", category: "backend" },
+  { name: "Spring", icon: "/icons/spring.svg", category: "backend" },
   {
     name: "Next.js",
     icon: "/icons/nextjs_icon_dark.svg",
@@ -22,29 +22,31 @@ const technologies = [
   { name: "PostgreSQL", icon: "/icons/postgresql.svg", category: "database" },
   { name: "TailwindCSS", icon: "/icons/tailwindcss.svg", category: "frontend" },
   { name: "MongoDB", icon: "/icons/mongodb.svg", category: "database" },
-  { name: "MySQL", icon: "/icons/postgresql.svg", category: "database" },
+  { name: "MySQL", icon: "/icons/mysql.svg", category: "database" },
   { name: "Docker", icon: "/icons/docker.svg", category: "devops" },
   { name: "Supabase", icon: "/icons/supabase.svg", category: "backend" },
+  { name: "Redis", icon: "/icons/redis.svg", category: "database" },
   { name: "Firebase", icon: "/icons/firebase.svg", category: "backend" },
   { name: "Git", icon: "/icons/git.svg", category: "devops" },
-  { name: "GitHub", icon: "/icons/github-light.svg", category: "devops" },
   { name: "Figma", icon: "/icons/figma.svg", category: "design" },
-  { name: "python", icon: "/icons/python.svg", category: "language" },
+  { name: "Python", icon: "/icons/python.svg", category: "language" },
   { name: "Sass", icon: "/icons/sass.svg", category: "frontend" },
-  { name: "openAI-api", icon: "/icons/openai.svg", category: "ai" },
-  { name: "Groq", icon: "/icons/groq.svg", category: "ai" },
-  { name: "vite", icon: "/icons/vitejs.svg", category: "frontend" },
+  { name: "Openai-api", icon: "/icons/openai.svg", category: "ai" },
+  { name: "Vite", icon: "/icons/vitejs.svg", category: "frontend" },
   { name: "Vercel", icon: "/icons/vercel.svg", category: "hosting" },
   { name: "Mongodb", icon: "/icons/mongodb.svg", category: "database" },
   { name: "MaterialUI", icon: "/icons/materialui.svg", category: "frontend" },
+  {name: "MagicUI", icon: "/icons/magicui.svg", category: "frontend"},
+  { name: "Shadcn-ui", icon: "/icons/shadcn-ui_dark.svg", category: "frontend" },
+  { name: "ChakraUI", icon: "/icons/chakra-ui.svg", category: "frontend" },
   { name: "HTML5", icon: "/icons/html5.svg", category: "frontend" },
   { name: "CSS3", icon: "/icons/css_old.svg", category: "frontend" },
-  { name: "dotenv", icon: "/icons/dotenv.svg", category: "devops" },
+  { name: "Dotenv", icon: "/icons/dotenv.svg", category: "devops" },
   { name: "Postman", icon: "/icons/postman.svg", category: "devops" },
   { name: "Linux", icon: "/icons/linux.svg", category: "devops" },
   { name: "Windows", icon: "/icons/windows.svg", category: "devops" },
-  { name: "vscode", icon: "/icons/vscode.svg", category: "devops" },
-  { name: "intellijidea", icon: "/icons/intellijidea.svg", category: "devops" },
+  { name: "VScode", icon: "/icons/vscode.svg", category: "devops" },
+  { name: "IntelliJ", icon: "/icons/intellijidea.svg", category: "devops" },
 ];
 
 export default function TechStack() {
@@ -60,7 +62,7 @@ export default function TechStack() {
           Stack Tecnológico
         </h3>
 
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 mt-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-6">
           {technologies.map((tech, index) => (
             <motion.div
               key={tech.name}
@@ -74,7 +76,7 @@ export default function TechStack() {
               <div className="w-12 h-12 mb-2 flex items-center justify-center">
                 <img src={tech.icon} alt={tech.name} className="w-10 h-10" />
               </div>
-              <span className="text-gray-300 text-sm text-center">
+              <span className="text-gray-300 text-xs sm:text-sm text-center">
                 {tech.name}
               </span>
             </motion.div>
