@@ -20,11 +20,15 @@ export default function About() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-        Soy un joven Desarrollador Full-Stack con experiencia en la creación de aplicaciones web escalables utilizando tecnologías como MERN (MongoDB, Express.js, React.js, Node.js), Next.js y Vercel. Me apasiona la innovación tecnológica y el desarrollo de soluciones eficientes, combinando backend sólido con interfaces intuitivas.
-
-Además, poseo conocimientos en Java, Python y Docker, así como experiencia en el manejo de bases de datos MySQL y MongoDB. Mi enfoque en el desarrollo ágil y la mejora continua me permite adaptarme rápidamente a nuevos desafíos, optimizando procesos y garantizando productos de alta calidad.
-
-Cuento con habilidades en trabajo en equipo, resolución de problemas y aprendizaje continuo, características que me han permitido desempeñarme con éxito en proyectos colaborativos y freelancing.
+        ¡Hola! Soy Juan, desarrollador Full-Stack con ganas de crear cosas que realmente funcionen y hagan la diferencia. Trabajo con tecnologías como el stack MERN, Next.js y Vercel para construir aplicaciones web modernas, escalables y bien cuidadas.
+      </motion.p>
+      <motion.p
+        className="text-lg mb-4 leading-relaxed text-gray-300"
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.45 }}
+      >
+        También tengo experiencia con Java, Python y Docker, y manejo bases de datos como MySQL y MongoDB. Me adapto rápido, siempre estoy aprendiendo algo nuevo y disfruto trabajar con metodologías ágiles, donde cada mejora cuenta.
       </motion.p>
       <motion.p
         className="text-lg leading-relaxed text-gray-300"
@@ -32,10 +36,8 @@ Cuento con habilidades en trabajo en equipo, resolución de problemas y aprendiz
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        Mi objetivo es combinar creatividad y experiencia técnica para resolver desafíos complejos y contribuir al
-        avance de la industria tecnológica.
+        Valoro el trabajo en equipo, la buena comunicación y resolver problemas de forma creativa. Mi objetivo es aportar valor desde la tecnología, dejando una marca positiva en cada proyecto en el que participo.
       </motion.p>
     </Box>
   )
 }
-
