@@ -20,7 +20,8 @@ export default function About() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-        ¡Hola! Soy Juan, desarrollador Full-Stack con ganas de crear cosas que realmente funcionen y hagan la diferencia. Trabajo con tecnologías como el stack MERN, Next.js y Vercel para construir aplicaciones web modernas, escalables y bien cuidadas.
+        ¡Hola! Soy Juan,Tengo 20 años y Actualmente vivo en Victoria,Entre Rios,Argentina.
+        Desarrollador Full-Stack con ganas de crear cosas que realmente funcionen y hagan la diferencia. Trabajo con tecnologías como el stack MERN, Next.js y Vercel para construir aplicaciones web modernas, escalables y bien cuidadas.
       </motion.p>
       <motion.p
         className="text-lg mb-4 leading-relaxed text-gray-300"

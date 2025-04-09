@@ -7,9 +7,9 @@ export const metadata: Metadata = {
   title: "JuanpiRiv.Dev",
   description: "Portfolio de JuanpiRiv",
   icons: {
-    icon: "/favicon.ico",
-  
-    apple: "/apple-touch-icon.png",
+    icon: "/deployed-code-account.svg",
+
+    apple: "/deployed-code-account.svg",
   },
 };
 
