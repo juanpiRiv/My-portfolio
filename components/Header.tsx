@@ -82,7 +82,7 @@ export default function Header() {
 
       </div>
       <motion.a
-    href="cv.pdf"
+    href="JuanPabloRiveroCV.pdf"
     download
     className="flex items-center justify-center mt-4 md:mt-4 bg-gray-800 hover:bg-gray-700 text-cyan-400 font-semibold py-3 px-6 rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/25"
     whileHover={{ scale: 1.05 }}
