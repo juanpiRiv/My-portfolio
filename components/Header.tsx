@@ -2,7 +2,7 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import profilepic from "@/public/profile-pic.png"
-import { Download, Mail, Calendar } from "lucide-react"
+import { Download} from "lucide-react"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 export default function Header() {
   return (
