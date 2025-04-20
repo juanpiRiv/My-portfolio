@@ -21,16 +21,6 @@ export default function CallToAction() {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <motion.a
-            href= "cv.pdf"
-            download
-            className="flex items-center justify-center bg-gray-800 hover:bg-gray-700 text-cyan-400 font-semibold py-3 px-6 rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/25"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <Download className="w-5 h-5 mr-2" />
-            Descargar CV
-          </motion.a>
 
           <motion.a
             href="mailto:juanpirivero015@gmail.com"

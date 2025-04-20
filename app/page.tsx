@@ -6,7 +6,6 @@ import EnhancedStarfieldBackground from "@/components/EnhancedStarfieldBackgroun
 import Header from "@/components/Header"
 import Navigation from "@/components/Navigation"
 import ContentSection from "@/components/ContentSection"
-import MetricsBanner from "@/components/MetricsBanner"
 import ProjectShowcase from "@/components/ProjectShowcase"
 import CallToAction from "@/components/CallToAction"
 import { sections } from "@/data/portfolioData"
@@ -33,8 +32,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto">
           <Header />
 
-          {/* Métricas destacadas */}
-          <MetricsBanner />
+
 
           <main>
             <Navigation sections={sections} activeSection={activeSection} setActiveSection={setActiveSection} />

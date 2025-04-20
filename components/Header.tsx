@@ -2,6 +2,7 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import profilepic from "@/public/profile-pic.png"
+import { Download, Mail, Calendar } from "lucide-react"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 export default function Header() {
   return (
@@ -74,11 +75,22 @@ export default function Header() {
               <FaLinkedin size={28} />
             </a>
           </motion.div>
-          </div>
           
+          </div>
+
         </div>
 
       </div>
+      <motion.a
+    href="cv.pdf"
+    download
+    className="flex items-center justify-center mt-4 md:mt-4 bg-gray-800 hover:bg-gray-700 text-cyan-400 font-semibold py-3 px-6 rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/25"
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+  >
+    <Download className="w-5 h-5 mr-2 shadow-sm" />
+    Descargar CV
+  </motion.a>
     </motion.header>
   )
 }
