@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     siteName: "JuanpiRiv.Dev",
     images: [
       {
-        url: "/opengraph.png", 
+        url: "/opengraph.png",
         width: 1200,
-        height: 630,
+        height: 666,
         alt: "Juan Pablo Rivero Portfolio",
       }
     ],
