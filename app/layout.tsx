@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "JuanpiRiv.Dev",
     images: [
       {
-        url: "/opengraph.png",
+        url: "/opengraph2.png",
         width: 1200,
         height: 666,
         alt: "Juan Pablo Rivero Portfolio",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "JuanpiRiv.Dev | Full Stack Developer",
     description: "Explorá el portfolio de Juan Pablo Rivero y descubrí su experiencia como Full Stack Developer.",
-    images: ["/opengraph.png"],
+    images: ["/opengraph2.png"],
   },
   icons: {
     icon: "/favicon.png",
