@@ -10,36 +10,26 @@ export const sections: Section[] = [
   { id: "contact", icon: Mail, title: "Contacto" },
 ];
 export const projects: Project[] = [
+  
   {
-    title: "🎯 Nodejs-Backend-I",
+    title: "🛍️ E-commerce Backend API (Nodejs)",
     description:
-      "API de comercio electrónico con Node.js y Express. Permite gestión de productos y carritos, autenticación de usuarios y comunicación en tiempo real con WebSockets.",
-    link: "https://github.com/juanpiRiv/Nodejs-Backend-I",
+      "API RESTful profesional para una plataforma de comercio electrónico. Incluye autenticación con JWT y Passport, gestión de productos, carritos y tickets de compra. Integración con Twilio (SMS), Nodemailer (emails), documentación Swagger y WebSockets. Proyecto modular, testeado (Mocha + Chai), con Docker y listo para producción.",
+    link: "https://github.com/juanpiRiv/Nodejs-Auth-Api",
   },
   {
-    title: "🎯 Nodejs-Backend-II",
+    title: "📊 Facturador API Java + Spring Boot + Docker",
     description:
-      "Este proyecto es un sistema de autenticación para un sitio web de comercio electrónico. Incluye la gestión de usuarios, la autenticación mediante JWT y la protección de rutas.",
-    link: "https://github.com/juanpiRiv/Nodejs-Backend-II",
-  },
-  {
-    title: "📑 Facturador API",
-    description:
-      "API REST en Java para la gestión de facturas, con base de datos en memoria H2, soporte para Docker y documentación con Swagger.",
+      "API REST de facturación desarrollada en Java con Spring Boot. Incluye gestión CRUD de facturas, productos y clientes, documentación Swagger, base de datos H2 (opcional MySQL en Docker), y colección Postman para testing. Proyecto modular, contenedorizado y listo para producción.",
     link: "https://github.com/juanpiRiv/FacturadorFINAL",
   },
   {
-    title: "💲 Dolar en vivo + Calculadora de cuotas",
+    title: "💲 Dólar en Vivo + Calculadora JavaScript Vanilla",
     description:
-      "Calculadora de cuotas con intereses + Dolar en vivo usando JavaScript vanilla y API de dolar.",
+      "App en JavaScript que muestra el dólar en tiempo real (API externa) y permite calcular cuotas con interés. Sin frameworks. Interfaz simple, funcional e ideal para educación financiera.",
     link: "https://github.com/juanpiRiv/CotizadorCuotasULT",
   },
-  {
-    title: "🌐 Primera Landing Page",
-    description:
-      "Mi primera landing page, con HTML y CSS,Sass, Bootstrap y FontAwesome.Aqui aprendi a crear un sitio web.",
-    link: "https://github.com/juanpiRiv/UrbanSound",
-  },
+
 ];
 
 
@@ -50,24 +40,24 @@ export const education: Education[] = [
     year: "2025-En curso",
   },
   {
-    degree: "Diplomatura Intensiva en Desarrollo Full-Stack",
+    degree: "Carrera Intensiva en Desarrollo Full-Stack-Web",
     institution: "CoderHouse",
-    year: "2024-2025 Finalizado",
+    year: "02/2024 - 07/2025 Finalizado",
   },
   {
     degree: "Bachillerato en Economía",
     institution: "ESJA 3",
-    year: "2023 Finalizado",
+    year: "2023 - Finalizado",
   },
 ];
 
 export const experience: Experience[] = [
   {
     position: "Administrativo",
-    company: "Epuyen SA",
+    company: "PABLO ARIEL SRL",
     period: "Mar 2025 - Presente",
     description:
-    "Trabajo en el área administrativa-financiera de Epuyen S.A., una empresa con más de 40 años en la industria pesquera, líder en la región y certificada por SENASA. Procesan hasta 50 toneladas diarias y exportan a América, Europa, Medio Oriente y África, cumpliendo con altos estándares internacionales de calidad. En mi rol, gestiono tareas clave como: administración de facturas y movimientos financieros, liquidaciones de tarjetas y control de operaciones, registro de asientos contables y manejo de sistemas como Account Soft y SIAP Arca (AFIP). Esta experiencia me permitió fortalecer mi perfil en la gestión contable, el orden administrativo y la toma de decisiones con visión financiera.",
+    "Me desempeño en el área administrativa-financiera de PABLO ARIEL SRL, una empresa especializada en el transporte de productos congelados, operando con altos estándares de logística y trazabilidad en la cadena de frío. En mi rol, gestiono procesos clave como la administración de facturas, seguimiento de movimientos financieros, conciliación de tarjetas, control de gastos operativos y registro contable. También opero sistemas como Account Soft y SIAP Arca (AFIP), facilitando la presentación de declaraciones juradas y el cumplimiento fiscal. Esta experiencia ha fortalecido mis habilidades en organización, control administrativo y análisis financiero en un entorno logístico exigente",
   },
   {
     position: "Desarrollador Trainee en Agentes Ai(n8n)",

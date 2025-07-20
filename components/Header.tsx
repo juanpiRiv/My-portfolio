@@ -12,7 +12,7 @@ export default function Header() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-purple-500/10 pointer-events-none" />
+      <div className="inset-0 bg-gradient-to-br from-cyan-500/10 to-purple-500/10 pointer-events-none" />
 
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-center md:justify-between">
         <div className="flex flex-col md:flex-row items-center mb-6 md:mb-0">
