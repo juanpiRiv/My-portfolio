@@ -51,6 +51,13 @@ export const education: Education[] = [
   },
 ];
 
+
+
+
+
+
+
+
 export const experience: Experience[] = [
   {
     position: "Administrativo",
