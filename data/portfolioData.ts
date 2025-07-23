@@ -59,13 +59,7 @@ export const education: Education[] = [
 
 
 export const experience: Experience[] = [
-  {
-    position: "Administrativo",
-    company: "PABLO ARIEL SRL",
-    period: "Mar 2025 - Presente",
-    description:
-    "Me desempeño en el área administrativa-financiera de PABLO ARIEL SRL, una empresa especializada en el transporte de productos congelados, operando con altos estándares de logística y trazabilidad en la cadena de frío. En mi rol, gestiono procesos clave como la administración de facturas, seguimiento de movimientos financieros, conciliación de tarjetas, control de gastos operativos y registro contable. También opero sistemas como Account Soft y SIAP Arca (AFIP), facilitando la presentación de declaraciones juradas y el cumplimiento fiscal. Esta experiencia ha fortalecido mis habilidades en organización, control administrativo y análisis financiero en un entorno logístico exigente",
-  },
+
   {
     position: "Desarrollador Trainee en Agentes Ai(n8n)",
     company: "Perceivo Ai (Start-up)",

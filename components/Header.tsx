@@ -35,7 +35,7 @@ export default function Header() {
           {/* Información del usuario */}
           <div className="text-center md:text-left">
             <motion.h1
-              className="text-5xl sm:text-6xl md:text-7xl font-semibold mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text leading-tight"
+              className="text-5xl sm:text-6xl md:text-7xl font-semibold mb-4 bg-gradient-to-r from-cyan-200 to-cyan-700 text-transparent bg-clip-text leading-tight"
               initial={{ y: -20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
@@ -48,7 +48,7 @@ export default function Header() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              <span className="text-cyan-400 font-semibold">Full Stack Developer</span>
+              <span className="text-cyan-400 font-semibold bg-gradient-to-r from-cyan-200 to-cyan-700 text-transparent bg-clip-text leading-tight">Full Stack Developer</span>
             </motion.p>
             <motion.div
             className="flex justify-center md:justify-start mt-4 gap-4"
@@ -84,7 +84,9 @@ export default function Header() {
       <motion.a
     href="JuanPabloRiveroCV.pdf"
     download
-    className="flex items-center justify-center mt-4 md:mt-4 bg-gray-800 hover:bg-gray-700 text-cyan-400 font-semibold py-3 px-6 rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/25"
+    className="mx-auto flex items-center justify-center mt-4 md:mt-4 bg-gray-800 hover:bg-gray-500 text-cyan-400 font-semibold py-3 px-4 w-fit rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/25"
+
+
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.95 }}
   >
