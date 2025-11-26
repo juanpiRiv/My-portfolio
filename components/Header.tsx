@@ -82,7 +82,7 @@ export default function Header() {
 
       </div>
       <motion.a
-    href="JuanPabloRiveroAlbornoz_DesarrolladorFullStackCV_ENG.pdf"
+    href="JuanPabloRiveroAlbornoz_DesarrolladorFullStackCV__ENG.pdf"
     download
     className="mx-auto flex items-center justify-center mt-4 md:mt-4 bg-gray-800 hover:bg-gray-500 text-cyan-400 font-semibold py-3 px-4 w-fit rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/25"
 
